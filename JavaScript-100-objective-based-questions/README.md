@@ -10,16 +10,14 @@ b) No;
 c) Sometime;
 d) Some Database
 ```
-<details>
-	<summary><b>View Answer</b></summary>
-<ul>
+
+
 Answer: b) No
 
 - No, JavaScript in the **browser** can’t connect directly to a database because of **security** and **protocol** restrictions — it would expose credentials and browsers can’t use database protocols.
 Only **server-side JavaScript** (like **Node.js**) can safely connect to databases.
 
-</ul>
-</details>
+
 
 
 **2. Which of the following is NOT a JavaScript data type?**
@@ -30,12 +28,11 @@ c) Float
 d) Undefined
 ```
 
-<details>
-	<summary><b>View Answer</b></summary>
-<ul>
+
+
+
 Answer: c) Float
-</ul>
-</details>
+
 
 
 **3. Which symbol is used for single-line comments in JavaScript?**
@@ -46,11 +43,10 @@ c) #
 d) <!--
 ```
 
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: a) //
-</ul>
-</details>
+
 
 
 **4. What will typeof null return?**
@@ -60,8 +56,8 @@ b) "object"
 c) "undefined"
 d) "string"
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: b) "object"
 
 - `typeof null` returns **`"object"`** ✅
@@ -70,8 +66,7 @@ Answer: b) "object"
 
 So even though `null` is **not** an object, `typeof null` still returns `"object"`.
 
-</ul>
-</details>
+
 
 
 
@@ -82,11 +77,10 @@ b) const user={name:'Anil'}
 c) var  user={name:'Anil'}; Object.freeze(user);
 c) There is no way to make immutable object
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: c) var  user={name:'Anil'}; Object.freeze(obj);
-</ul>
-</details>
+
 
 
 **Operators & Expressions**
@@ -98,8 +92,8 @@ b) "22"
 c) NaN
 d) Error
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: b) "22"
 
 - `2 + "2"` will evaluate to **`"22"`** ✅
@@ -107,8 +101,7 @@ Answer: b) "22"
 👉 Reason:
 The `+` operator with a **string** causes **type coercion** — JavaScript converts the number `2` into a string and performs **string concatenation**, not addition.
 
-</ul>
-</details>
+
 
 
 **7.Which operator is used for strict equality in JavaScript?**
@@ -118,11 +111,10 @@ b) !==
 c) =
 d) !=
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: b) !==
-</ul>
-</details>
+
 
 
 
@@ -133,8 +125,8 @@ b) false
 c) undefined
 d) Error
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: a) true
 
 - `!!"false"` evaluates to **`true`** ✅
@@ -145,8 +137,7 @@ Answer: a) true
 * The first `!` converts it to `false`.
 * The second `!` negates that, giving **`true`**.
 
-</ul>
-</details>
+
 
 
 
@@ -155,8 +146,8 @@ Answer: a) true
 a) true
 b) false
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: a) true
 
 `5 == "5"` evaluates to **`true`** ✅
@@ -164,8 +155,7 @@ Answer: a) true
 👉 Reason:
 The `==` operator performs **type coercion**, so JavaScript converts the string `"5"` to a number before comparing — and both become `5`.
 
-</ul>
-</details>
+
 
 
 
@@ -174,11 +164,10 @@ The `==` operator performs **type coercion**, so JavaScript converts the string 
 a) true
 b) false
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: b) false
-</ul>
-</details>
+
 
 
 
@@ -189,11 +178,10 @@ b) while loop
 c) do-while loop
 d) None of the above
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: c) do-while loop
-</ul>
-</details>
+
 
 
 
@@ -209,11 +197,10 @@ b) Loop will not execute
 c) Error
 d) Only Run once 
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: a) Infinit Loop
-</ul>
-</details>
+
 
 
 **13. What will console.log(typeof NaN); print?**
@@ -224,8 +211,8 @@ c) "undefined"
 d) "object"
 ```
 
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: a) "number"
 
 `console.log(typeof NaN);` will print **`"number"`** ✅
@@ -233,8 +220,7 @@ Answer: a) "number"
 👉 Reason:
 `NaN` (Not-a-Number) is actually a **numeric value** in JavaScript — it represents an invalid number, but its **type is still `number`**.
 
-</ul>
-</details>
+
 
 
 **14. Output of below statment**
@@ -249,8 +235,8 @@ b) object
 c) 0
 d) undefined
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: c) 0
 
 The output will be **`0`** ✅
@@ -261,8 +247,7 @@ The output will be **`0`** ✅
 * When used in arithmetic operations, `null` is **converted to `0`**.
 * So the expression becomes `0 + 0`, which equals **`0`**.
 
-</ul>
-</details>
+
 
 
 **15. What will console.log(typeof function(){}); return?**
@@ -273,8 +258,8 @@ c) "undefined"
 d) "null"
 ```
 
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: a) "function"
 
 `console.log(typeof function(){});` will return **`"function"`** ✅
@@ -282,8 +267,7 @@ Answer: a) "function"
 👉 Reason:
 In JavaScript, functions are **special objects**, and the `typeof` operator identifies them with the distinct type `"function"`.
 
-</ul>
-</details>
+
 
 
 **16. What will console.log(typeof function(){}()); return?**
@@ -294,8 +278,8 @@ c) "undefined"
 d) "null"
 ```
 
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: c) "undefined"
 
 ✅ The output will be **`"undefined"`**
@@ -310,8 +294,7 @@ console.log(typeof function(){}());
 * The function has **no return statement**, so it returns **`undefined`**.
 * Then `typeof undefined` → **`"undefined"`**.
 
-</ul>
-</details>
+
 
 **17. What is the default return value of a function in JavaScript if no return statement is used?**
 ```js
@@ -321,14 +304,13 @@ c) false
 d) 0
 ```
 
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: b) undefined
 
 The default return value of a function in JavaScript, if no `return` statement is used, is **`undefined`** ✅
 
-</ul>
-</details>
+
 
 
 **18. Which type of function executes immediately after its definition?**
@@ -339,8 +321,8 @@ c) IIFE (Immediately Invoked Function Expression)
 d) Arrow function
 ```
 
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: c) IIFE
 
 A **Immediately Invoked Function Expression (IIFE)** ✅
@@ -355,8 +337,7 @@ A **Immediately Invoked Function Expression (IIFE)** ✅
 
 🧠 It’s a function that’s **defined and executed instantly** — without being called separately.
 
-</ul>
-</details>
+
 
 
 **19. Outpout of below statment** 
@@ -371,8 +352,8 @@ c) ReferenceError
 d) NaN
 ```
 
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: c) ReferenceError
 
 ❌ The output will be a **`ReferenceError`** ✅
@@ -387,8 +368,7 @@ Answer: c) ReferenceError
 ReferenceError: Cannot access 'x' before initialization
 ```
 
-</ul>
-</details>
+
 
 
 **20. How do you create an object in JavaScript?**
@@ -398,8 +378,8 @@ b) let obj = new Object();
 c) Both a and b
 d) None of the above
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: c) Both a and b
 
 You can create an object in JavaScript in several ways ✅
@@ -446,8 +426,7 @@ const p1 = new Person("Alice", 25);
 const obj = { key: "value" };
 ```
 
-</ul>
-</details>
+
 
 
 **21. How do you access a property in an object?**
@@ -457,11 +436,10 @@ b) obj.property
 c) Both a and b
 d) None of the above
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: c) Both a and b
-</ul>
-</details>
+
 
 **22. Which method is used to add a new element at the end of an array?**
 ```js
@@ -470,8 +448,8 @@ b) pop()
 c) shift()
 d) unshift()
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: a) push()
 
 The **`.push()`** method ✅
@@ -486,8 +464,7 @@ console.log(arr); // [1, 2, 3, 4]
 
 🧠 `.push()` adds one or more elements to the **end** of an array and returns the **new length** of the array.
 
-</ul>
-</details>
+
 
 
 **23. What will console.log([1,2,3].length); return?**
@@ -497,8 +474,8 @@ b) 3
 c) 4
 d) undefined
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: b) 3
 
 `console.log([1, 2, 3].length);` will return **`3`** ✅
@@ -507,8 +484,7 @@ Answer: b) 3
 The `.length` property of an array gives the **number of elements** in it.
 Here, the array `[1, 2, 3]` has **3 elements**.
 
-</ul>
-</details>
+
 
 
 **24. How do you remove first 2 element of an array?**
@@ -518,8 +494,8 @@ b) shift()
 c) unshift()
 d) splice()
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: d) splice()
 
 You can remove the first 2 elements of an array using the **`splice()`** or **`slice()`** method ✅
@@ -540,8 +516,7 @@ const newArr = arr.slice(2); // skips first 2 elements
 console.log(newArr); // [3, 4, 5]
 ```
 
-</ul>
-</details>
+
 
 
 **25. Which keyword allows block-scoped variable declarations?**
@@ -552,8 +527,8 @@ c) const
 d) Both b and c
 
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: d) Both b and c
 
 The keywords **`let`** and **`const`** allow **block-scoped** variable declarations ✅
@@ -568,8 +543,7 @@ The keywords **`let`** and **`const`** allow **block-scoped** variable declarati
 // a and b are not accessible outside this block
 ```
 
-</ul>
-</details>
+
 
 **26 Which of the following is true about const variables?**
 ```js
@@ -578,8 +552,8 @@ b) They cannot be reassigned
 c) They are always immutable
 d) All of the above
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: b) They cannot be reassigned
 
 ✅ **Correct answer:** **b) They cannot be reassigned**
@@ -597,8 +571,7 @@ obj.name = "Bob"; // ✅ allowed — object property changed
 obj = {};         // ❌ Error — reassignment not allowed
 ```
 
-</ul>
-</details>
+
 
 
 **27. What is the output of console.log(typeof([]));?**
@@ -608,8 +581,8 @@ b) "array"
 c) "undefined"
 d) "null"
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: a) "object"
 
 `console.log(typeof([]));` will output **`"object"`** ✅
@@ -619,8 +592,7 @@ In JavaScript, **arrays are special kinds of objects**, so the `typeof` operator
 
 *(To check if something is truly an array, use `Array.isArray([])` → `true`)*
 
-</ul>
-</details>
+
 
 
 **28. What is a template literal in JavaScript?**
@@ -631,8 +603,8 @@ c) A special function
 d) A new ES6 data type
 ```
 
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: b) A string enclosed in backticks (` `)
 
 A **template literal** in JavaScript is a way to create strings that can include **variables** and **expressions** easily using **backticks (`)** ✅
@@ -658,8 +630,7 @@ const a = 5, b = 10;
 console.log(`Sum is ${a + b}`); // Sum is 15
 ```
 
-</ul>
-</details>
+
 
 
 **29. What will console.log(..."Hello"); output?**
@@ -669,8 +640,8 @@ b) ["H", "e", "l", "l", "o"]
 c) Syntax Error
 d) undefined
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: a) "H e l l o"
 
 `console.log(..."Hello");` will output:
@@ -686,8 +657,7 @@ H e l l o
 * The **spread operator (`...`)** expands an iterable (like a string or array) into individual elements.
 * `"Hello"` is a string, so it gets spread into its characters: `H`, `e`, `l`, `l`, `o`.
 
-</ul>
-</details>
+
 
 
 **30. How do you define an arrow function?**
@@ -698,11 +668,10 @@ c) Both a and b
 d) None of the above
 ```
 
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: a) const add = (a, b) => a + b;
-</ul>
-</details>
+
 
 
 
@@ -712,8 +681,8 @@ a) Combines arrays
 b) Expands iterable elements
 C) All of the above
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: C) All of the above
 
 The **spread operator (`...`)** in JavaScript is used to **expand** (or “spread”) elements of an **iterable** (like an array, string, or object) into **individual elements** ✅
@@ -745,8 +714,7 @@ console.log(Math.max(...nums)); // 3
 
 👉 **In short:** The spread operator **unpacks** elements from arrays or objects.
 
-</ul>
-</details>
+
 
 
 **32. What will console.log([...new Set([1, 2, 2, 3])]); return?**
@@ -756,8 +724,8 @@ b) [1, 2, 2, 3]
 c) Set {1, 2, 3}
 d) {1, 2, 3}
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: a) [1, 2, 3]
 
 `console.log([...new Set([1, 2, 2, 3])]);` will return **`[1, 2, 3]`** ✅
@@ -767,8 +735,7 @@ Answer: a) [1, 2, 3]
 * `new Set([1, 2, 2, 3])` creates a **Set**, which automatically removes **duplicate values** → `{1, 2, 3}`
 * The **spread operator (`...`)** converts the Set back into an **array** → `[1, 2, 3]`
 
-</ul>
-</details>
+
 
 
 **33. Which statement about arrow functions is true?**
@@ -779,8 +746,8 @@ c) They have a prototype property
 d) They support arguments keyword
 ```
 
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: a) They do not bind this
 
 ✅ **Correct answer:** **a) They do not bind `this`**
@@ -792,8 +759,7 @@ Answer: a) They do not bind this
 * They **don’t** have a `prototype` property.
 * They **don’t** support the `arguments` keyword (use rest parameters instead).
 
-</ul>
-</details>
+
 
 
 **34. Output of follow code?**
@@ -811,8 +777,8 @@ b) {'apple', 'banana', 'grapes'}
 c) 'apple 'banana grapes'
 d) 'apple'
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: c) 'apple 'banana grapes'
 
 ✅ **Correct answer:** **c) `'apple banana grapes'`**
@@ -828,8 +794,7 @@ Answer: c) 'apple 'banana grapes'
 apple banana grapes
 ```
 
-</ul>
-</details>
+
 
 
 **35. What is the purpose of JavaScript Promises?**
@@ -839,8 +804,8 @@ b) Handle asynchronous operations
 c) Block execution until resolved
 d) Replace all callbacks
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: b) Handle asynchronous operations
 
 The purpose of **JavaScript Promises** is to **handle asynchronous operations** more cleanly and efficiently ✅
@@ -869,8 +834,7 @@ promise.then(result => console.log(result)); // "Data received"
 * Makes asynchronous code easier to read and manage
 * Works well with modern syntax like **`async/await`**
 
-</ul>
-</details>
+
 
 
 **36. Which state is NOT valid for a Promise?**
@@ -880,8 +844,8 @@ b) Fulfilled
 c) Rejected
 d) Running
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: d) Running
 
 ✅ **Correct answer:** **d) Running**
@@ -895,8 +859,7 @@ A JavaScript **Promise** has only **three valid states**:
 
 There’s **no “Running”** state in Promises.
 
-</ul>
-</details>
+
 
 
 **37. Use of Await keyword ?**
@@ -906,8 +869,8 @@ b) make promise
 c) atop execution  
 d) all of above
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: a) wait for an asynchronous operation to finish before continuing the execution
 
 The **`await`** keyword is used to **pause** the execution of an **async function** until a **Promise** is **resolved** or **rejected** ✅
@@ -930,8 +893,7 @@ async function getData() {
 ⚠️ **Note:**
 `await` can be used **only inside** an `async` function.
 
-</ul>
-</details>
+
 
 
 **38. Which method selects an element by ID?**
@@ -941,11 +903,10 @@ b) document.getElementById()
 c) document.selectElementById()
 d) document.selectById()
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: b) document.getElementById()
-</ul>
-</details>
+
 
 
 
@@ -956,11 +917,10 @@ b) blur
 c) focus
 d) change
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: b) blur
-</ul>
-</details>
+
 
 
 **40. Which method adds an event listener to an element?**
@@ -970,11 +930,10 @@ b) element.attachEvent()
 c) element.onEvent()
 d) element.setEventListener()
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: a) element.addEventListener()
-</ul>
-</details>
+
 
 
 **41. What does event.preventDefault() do?**
@@ -984,11 +943,10 @@ b) Stops event propagation
 c) Prevents event from being attached
 d) None of the above
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: a) Stops the default action of an event
-</ul>
-</details>
+
 
 **43. What is localStorage used for?**
 ```js
@@ -998,8 +956,8 @@ c) Making API requests
 d) Caching images
 ```
 
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: b) Storing data persistently in the browser
 
 ✅ **Answer:**
@@ -1021,8 +979,7 @@ localStorage.removeItem("name");
 
 👉 Use `localStorage` for saving things like user preferences, theme settings, or small app data.
 
-</ul>
-</details>
+
 
 
 **44 Which method converts a JavaScript object into a JSON string?**
@@ -1033,8 +990,8 @@ c) toJSON()
 d) parseJSON()
 ```
 
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: a) JSON.stringify()
 
 ✅ **Answer:** `JSON.stringify()`
@@ -1050,8 +1007,7 @@ console.log(jsonString); // '{"name":"Alice","age":25}'
 🧠 **Explanation:**
 `JSON.stringify()` converts a **JavaScript object** into a **JSON-formatted string**, which is useful for storing or sending data.
 
-</ul>
-</details>
+
 
 
 **45 What will console.log(parseInt("10px")) return?**
@@ -1061,8 +1017,8 @@ b) NaN
 c) "10px"
 d) Error
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: a) 10
 
 `console.log(parseInt("10px"))` will return **`10`** ✅
@@ -1073,8 +1029,7 @@ Answer: a) 10
 * It stops parsing when it encounters a **non-numeric character** (`p` in this case).
 * So `"10px"` → **`10`**
 
-</ul>
-</details>
+
 
 
 **46. Which method executes a function repeatedly with a time interval?**
@@ -1085,8 +1040,8 @@ c) repeat()
 d) setLoop()
 ```
 
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: a) setInterval()
 
 ✅ **Answer:** `setInterval()`
@@ -1102,8 +1057,7 @@ setInterval(() => {
 🧠 **Explanation:**
 `setInterval()` repeatedly executes a given function **at fixed time intervals** (in milliseconds) until it’s stopped using `clearInterval()`.
 
-</ul>
-</details>
+
 
 
 
@@ -1114,8 +1068,8 @@ b) x.isArray()
 c) Array.isArray(x)
 d) x instanceof Object
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: c) Array.isArray(x)
 
 ✅ **Correct answer:** **c) Array.isArray(x)**
@@ -1128,8 +1082,7 @@ Other options are incorrect because:
 * `x.isArray()` ❌ → no such method exists.
 * `x instanceof Object` ❌ → true for many things, not just arrays.
 
-</ul>
-</details>
+
 
 
 
@@ -1142,8 +1095,8 @@ c) A way to define private variables
 d) Both a and c
 ```
 
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: d) Both a and c
 
 ✅ **Correct answer:** **d) Both a and c**
@@ -1172,8 +1125,7 @@ counter(); // 2
 
 Here, `inner()` forms a **closure** over `count`.
 
-</ul>
-</details>
+
 
 
 
@@ -1185,8 +1137,8 @@ c) Closures have access to global scope
 d) All of the above
 ```
 
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: d) All of the above
 
 ✅ **Correct answer:** **d) All of the above**
@@ -1216,8 +1168,7 @@ outer()(); // Inner Outer Global
 
 ✅ The inner function (closure) can access all three scopes.
 
-</ul>
-</details>
+
 
 **50.What will this code output?**
 ```js
@@ -1239,8 +1190,8 @@ b) 0 1
 c) 1 1
 d) Error
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: a) 1 2
 
 ✅ **Output:**
@@ -1331,8 +1282,7 @@ c2(); // 1   <-- separate `count`
 * The code logs `1` then `2` because the inner function forms a closure over `count`, allowing `count` to persist and be incremented across calls.
 
 
-</ul>
-</details>
+
 
 
 **51. Which statement about var and let is true?**
@@ -1342,11 +1292,10 @@ b) var is function-scoped, let is block-scoped
 c) Both are block-scoped
 d) var allows redeclaration, let doesn’t
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: b) var is function-scoped, let is block-scoped
-</ul>
-</details>
+
 
 
 **52. What will console.log(x); var x = 10; output?**
@@ -1356,8 +1305,8 @@ b) undefined
 c) ReferenceError
 d) NaN
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: b) undefined
 
 ✅ **Output:**
@@ -1381,8 +1330,7 @@ x = 10;         // initialization happens here
 
 Hence, the output is **`undefined`** (not an error).
 
-</ul>
-</details>
+
 
 
 **53. Which statement is used for error handling in JavaScript?**
@@ -1392,8 +1340,8 @@ b) throw
 c) finally
 d) All of the above
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: d) All of the above
 
 ✅ **Correct answer:** **d) All of the above**
@@ -1417,8 +1365,7 @@ try {
 }
 ```
 
-</ul>
-</details>
+
 
 
 **54. What happens if an error occurs inside the try block?**
@@ -1428,8 +1375,8 @@ b) The error is caught in the catch block
 c) The script crashes
 d) The error is ignored
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: b) The error is caught in the catch block
 
 ✅ **Correct answer:** **b) The error is caught in the catch block**
@@ -1456,8 +1403,7 @@ try {
 Caught error: Something went wrong!
 ```
 
-</ul>
-</details>
+
 
 
 **55. What will console.log(x); inside a try block with no catch or finally do?**
@@ -1467,8 +1413,8 @@ b) Print null
 c) Throw a ReferenceError
 d) Nothing
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: c) Throw a ReferenceError
 
 If you run this code:
@@ -1493,8 +1439,7 @@ ReferenceError: x is not defined
 
 💡 In short — the error **escapes the try block** and behaves as if there were no `try` at all.
 
-</ul>
-</details>
+
 
 
 **56. Which method is used to generate a custom error?**
@@ -1504,8 +1449,8 @@ b) console.error()
 c) generateError()
 d) raiseError()
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: a) throw new Error()
 
 ✅ **Correct answer:** **a) `throw new Error()`**
@@ -1525,8 +1470,7 @@ throw new Error("This is a custom error!");
 * `new Error()` creates a new **Error object** with a custom message.
 * The error can then be **caught** using a `try...catch` block.
 
-</ul>
-</details>
+
 
 
 **57. What will finally do in a try-catch-finally block?**
@@ -1536,8 +1480,8 @@ b) Execute only if an error occurs
 c) Always execute
 d) None of the above
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: c) Always execute
 
 ✅ **Correct answer:** **c) Always execute**
@@ -1569,8 +1513,7 @@ Error caught!
 Finally always runs!
 ```
 
-</ul>
-</details>
+
 
 
 **58. OOP (Object-Oriented Programming) in JavaScript
@@ -1582,8 +1525,8 @@ c) Class
 d) new Class
 
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: a) class
 
 ✅ **Correct answer:** **a) `class`**
@@ -1610,8 +1553,7 @@ p1.greet(); // Hello, Alice!
 
 🧠 The `class` syntax is just **syntactic sugar** over JavaScript’s existing **prototype-based inheritance** system.
 
-</ul>
-</details>
+
 
 **59. What is the purpose of the constructor method in a class?**
 ```js
@@ -1620,8 +1562,8 @@ b) To initialize object properties
 c) To call another class
 d) None of the above
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: b) To initialize object properties
 
 ✅ **Correct answer:** **b) To initialize object properties**
@@ -1645,8 +1587,7 @@ console.log(p1.name); // Alice
 
 🧠 The constructor is mainly used to **set up initial values** (object properties) for each instance of the class.
 
-</ul>
-</details>
+
 
 
 
@@ -1657,8 +1598,8 @@ b) extends
 c) inherits
 d) prototype
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: b) extends
 
 ✅ **Correct answer:** **b) `extends`**
@@ -1688,8 +1629,7 @@ dog.bark();  // Dog barks
 
 🧠 The `extends` keyword enables **reusability** and **hierarchical relationships** between classes.
 
-</ul>
-</details>
+
 
 
 
@@ -1700,8 +1640,8 @@ b) super()
 c) this()
 d) constructor()
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: b) super()
 
 ✅ **Correct answer:** **b) `super()`**
@@ -1733,8 +1673,7 @@ console.log(dog.breed); // Labrador
 🧠 **Note:**
 You must call `super()` **before using `this`** in a subclass constructor.
 
-</ul>
-</details>
+
 
 
 **62 Which statement about JavaScript classes is true?**
@@ -1744,8 +1683,8 @@ b) They are syntactic sugar over prototypes
 c) They can be redeclared
 d) They do not support inheritance
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: b) They are syntactic sugar over prototypes
 
 ✅ **Correct answer:** **b) They are syntactic sugar over prototypes**
@@ -1852,8 +1791,7 @@ The `class` syntax just hides the messy prototype setup and makes it easier for 
 > “Syntactic sugar over prototypes” means **classes are just a cleaner way to use the existing prototype-based inheritance system** in JavaScript — no new behavior, just simpler syntax.
 
 
-</ul>
-</details>
+
 
 **Web APIs & Asynchronous JavaScript**
 
@@ -1864,8 +1802,8 @@ b) Fetch API
 c) Axios
 d) All of the above
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: d) All of the above
 
 ✅ **Correct answer:** **d) All of the above**
@@ -1888,8 +1826,7 @@ fetch('https://api.example.com/data')
 
 🧠 Today, the **Fetch API** is the most common choice for modern JavaScript applications.
 
-</ul>
-</details>
+
 
 
 **64. Which method sends a GET request using Fetch API?** 
@@ -1899,11 +1836,10 @@ b) fetch(url, { method: 'GET' })
 c) Both a and b
 d) None of the above
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: c) Both a and b
-</ul>
-</details>
+
 
 
 **65. What does navigator.geolocation.getCurrentPosition() do?**
@@ -1913,8 +1849,8 @@ b) Gets user’s location
 c) Opens a Google Maps page
 d) None of the above
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: b) Gets user’s location
 
 ✅ **Correct answer:** **b) Gets user’s location**
@@ -1940,8 +1876,7 @@ navigator.geolocation.getCurrentPosition(
 * It requires the user to **allow location access**.
 * Works only in **secure contexts** (`https` or localhost).
 
-</ul>
-</details>
+
 
 
 **66. Which storage API stores data persistently?**
@@ -1951,8 +1886,8 @@ b) sessionStorage
 c) cookies
 d) All of the above
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: a) localStorage
 
 ✅ **Correct answer:** **d) All of the above**
@@ -1972,8 +1907,7 @@ All three can store data **persistently**, but with different scopes and lifetim
 * `sessionStorage` → Per-tab short-term storage
 * `cookies` → Can persist (if not session cookies) and are also sent to the server
 
-</ul>
-</details>
+
 
 
 **67. How can you set an interval in JavaScript?**
@@ -1983,8 +1917,8 @@ b) setInterval()
 c) setRepeat()
 d) Interval()
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: b) setInterval()
 
 ✅ **Correct answer:** **b) `setInterval()`**
@@ -2008,8 +1942,7 @@ const id = setInterval(...);
 clearInterval(id);
 ```
 
-</ul>
-</details>
+
 
 
 
@@ -2020,8 +1953,8 @@ b) slice()
 c) remove()
 d) delete()
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: a) splice()
 
 ✅ **Correct answer:** **a) `splice()`**
@@ -2043,8 +1976,7 @@ console.log(arr); // [1, 3, 4]
 * `remove()` → ❌ not a valid JavaScript array method.
 * `delete()` → ⚠️ removes the element but leaves an **empty slot** (undefined index).
 
-</ul>
-</details>
+
 
 
 **69. Which JavaScript engine is used in Google Chrome?**
@@ -2054,8 +1986,8 @@ b) V8
 c) Chakra
 d) Nitro
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: b) V8
 
 ✅ **Correct answer:** **b) V8**
@@ -2072,8 +2004,7 @@ The **V8 JavaScript engine**, developed by **Google**, is used in:
 * **Chakra** → used in **Microsoft Edge (legacy)**
 * **Nitro** → used in **Apple Safari**
 
-</ul>
-</details>
+
 
 **70. Which method converts a string into a number?**
 ```js
@@ -2082,8 +2013,8 @@ b) Number()
 c) + (unary plus)
 d) All of the above
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: d) All of the above
 
 ✅ **Correct answer:** **d) All of the above**
@@ -2104,8 +2035,7 @@ Number("42");       // 42       → converts to number (int or float)
 * `parseInt()` stops at non-numeric characters → `parseInt("10px")` → `10`
 * `Number()` and `+` will return `NaN` if the entire string isn’t numeric.
 
-</ul>
-</details>
+
 
 
 **71. Which function generates a random number between 0 and 1?**
@@ -2115,8 +2045,8 @@ b) random()
 c) generateRandom()
 d) Math.rand()
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: a) Math.random()
 
 ✅ **Correct answer:** **a) `Math.random()`**
@@ -2138,8 +2068,7 @@ const num = Math.random() * 10;  // 0–9.999...
 console.log(Math.floor(num) + 1); // 1–10
 ```
 
-</ul>
-</details>
+
 
 
 
@@ -2150,8 +2079,8 @@ b) "0"
 c) undefined
 d) "undefined"
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: c) undefined
 
 ✅ **Correct answer:** **c) `undefined`**
@@ -2174,8 +2103,7 @@ In JavaScript, **falsy values** are values that evaluate to `false` in a Boolean
 * `"0"` → truthy (non-empty string)
 * `"undefined"` → truthy (non-empty string)
 
-</ul>
-</details>
+
 
 
 **73. What will console.log([] == false); return?**
@@ -2185,8 +2113,8 @@ b) false
 c) undefined
 d) Error
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: a) true
 
 ✅ **Correct answer:** **a) true**
@@ -2212,8 +2140,7 @@ If you use **strict equality (`===`)**, it returns `false` because types differ:
 [] === false  // false
 ```
 
-</ul>
-</details>
+
 
 
 
@@ -2224,8 +2151,8 @@ b) String
 c) Object
 d) Symbol
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: c) Object
 
 ✅ **Correct answer:** **c) Object**
@@ -2243,8 +2170,7 @@ Answer: c) Object
 
 🧠 **`Object`** is **not primitive** — it’s a **reference type** that can hold multiple values and properties.
 
-</ul>
-</details>
+
 
 **75. How do you deep clone an object in JavaScript?**
 ```js
@@ -2253,8 +2179,8 @@ b) JSON.parse(JSON.stringify(obj))
 c) obj.clone()
 d) obj.copy()
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: b) JSON.parse(JSON.stringify(obj))
 
 ✅ **Correct answer:** **b) `JSON.parse(JSON.stringify(obj))`**
@@ -2279,8 +2205,7 @@ console.log(clone.details.age); // 30
 * This method **does not clone functions**, `undefined`, or special objects like `Date`, `Map`, or `Set`.
 * For complex objects, use libraries like **Lodash’s `_.cloneDeep()`**.
 
-</ul>
-</details>
+
 
 
 **76. What is the output of console.log(2 + "2" - 1);?**
@@ -2290,8 +2215,8 @@ b) 21
 c) "22"
 d) 1
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: b) 21
 
 ✅ **Correct answer:** **b) `21`**
@@ -2307,8 +2232,7 @@ console.log(2 + "2" - 1);
 
 ✅ Final output: **`21`**
 
-</ul>
-</details>
+
 
 
 
@@ -2319,8 +2243,8 @@ b) filter()
 c) reduce()
 d) slice()
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: b) filter()
 
 ✅ **Correct answer:** **b) `filter()`**
@@ -2342,8 +2266,7 @@ console.log(even); // [2, 4]
 * `reduce()` → reduces to a single value
 * `slice()` → copies part of an array
 
-</ul>
-</details>
+
 
 
 
@@ -2354,8 +2277,8 @@ b) map()
 c) join()
 d) concat()
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: a) reduce()
 
 ✅ **Correct answer:** **a) `reduce()`**
@@ -2377,8 +2300,7 @@ console.log(sum); // 10
 * `join()` → combines elements into a **string**
 * `concat()` → merges **arrays**, not elements
 
-</ul>
-</details>
+
 
 
 
@@ -2392,8 +2314,8 @@ b) [1, 4, 9]
 c) [1, 2, 3]
 d) [2, 3, 4]
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: a) [2, 4, 6]
 
 ✅ **Correct answer:** **a) [2, 4, 6]**
@@ -2410,8 +2332,7 @@ The **`map()`** method creates a **new array** by applying a function to **each 
 
 🧠 The original array `[1, 2, 3]` remains **unchanged**.
 
-</ul>
-</details>
+
 
 
 **80. Which of the following is NOT an immutable operation?**
@@ -2421,8 +2342,8 @@ b) filter()
 c) splice()
 d) concat()
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: c) splice()
 
 ✅ **Correct answer:** **c) `splice()`**
@@ -2445,8 +2366,7 @@ console.log(arr); // [1, 4]  ← original array changed
 * `filter()`
 * `concat()`
 
-</ul>
-</details>
+
 
 
 **81. What is the event loop in JavaScript?**
@@ -2456,8 +2376,8 @@ b) A mechanism that allows async operations
 c) A feature that prevents infinite loops
 d) A method to execute code
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: b) A mechanism that allows async operations
 
 ✅ **Correct answer:** **b) A mechanism that allows async operations**
@@ -2478,8 +2398,7 @@ The **event loop** in JavaScript is a **mechanism** that allows asynchronous (no
 
 > The **event loop** manages the execution of **synchronous and asynchronous code**, ensuring JavaScript remains **non-blocking and responsive**.
 
-</ul>
-</details>
+
 
 
 **82. Which of the following executes first in the event loop?**
@@ -2489,8 +2408,8 @@ b) setInterval()
 c) Promise.resolve().then()
 d) console.log()
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: d) console.log()
 
 ✅ **Correct answer:** **d) `console.log()`**
@@ -2526,8 +2445,7 @@ B
 
 🧠 So `console.log()` runs **first** because it’s **synchronous**.
 
-</ul>
-</details>
+
 
 
 
@@ -2538,8 +2456,8 @@ b) Callback queue
 c) Event loop queue
 d) Execution stack
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: b) Callback queue
 
 ✅ **Correct answer:** **b) Callback queue**
@@ -2572,8 +2490,7 @@ Timeout
 ✅ `setTimeout()` → **callback queue (macrotask)**
 ✅ `Promise.then()` → **microtask queue**
 
-</ul>
-</details>
+
 
 
 **84. What will be the output of this code?**
@@ -2588,8 +2505,8 @@ b) A C B
 c) B A C
 d) C A B
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: b) A C B
 
 ✅ **Correct answer:** **b) A C B**
@@ -2618,8 +2535,7 @@ C
 B
 ```
 
-</ul>
-</details>
+
 
 **85. Which of the following is a best practice in JavaScript?**
 ```js
@@ -2628,8 +2544,8 @@ b) Avoiding global variables
 c) Using var instead of let
 d) Nesting loops as deep as possible
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: b) Avoiding global variables
 
 ✅ **Correct answer:** **b) Avoiding global variables**
@@ -2650,8 +2566,7 @@ Avoiding **global variables** is a key **best practice** in JavaScript because:
 
 > Use `let` / `const`, `===`, modular functions, and avoid global variables.
 
-</ul>
-</details>
+
 
 
 **86. What does "debouncing" do in JavaScript?**
@@ -2661,8 +2576,8 @@ b) Executes a function immediately
 c) Runs a function continuously
 d) None of the above
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: a) Delays function execution until a pause in events
 
 ✅ **Correct answer:** **a) Delays function execution until a pause in events**
@@ -2695,8 +2610,7 @@ It runs **only once** you stop typing for **500ms**.
 
 🧠 **In short:** Debouncing helps **improve performance** and **reduce unnecessary function calls**.
 
-</ul>
-</details>
+
 
 
 **87. What does "throttling" do?**
@@ -2706,8 +2620,8 @@ b) Prevents a function from running
 c) Removes unnecessary function calls
 d) Stops event propagation
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: a) Executes a function only at fixed intervals
 
 ✅ **Correct answer:** **a) Executes a function only at fixed intervals**
@@ -2750,8 +2664,7 @@ window.addEventListener("scroll", throttledLog);
 
 So throttling = “limit how often” ✅
 
-</ul>
-</details>
+
 
 
 **88. Which of the following improves JavaScript performance?**
@@ -2761,8 +2674,8 @@ b) Using lazy loading
 c) Avoiding unnecessary DOM manipulations
 d) All of the above
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: d) All of the above
 
 ✅ **Correct answer:** **d) All of the above**
@@ -2789,8 +2702,7 @@ All these techniques help **optimize and speed up** JavaScript performance 👇
 
 > Optimize code, defer non-critical work, and minimize DOM operations for best JavaScript performance.
 
-</ul>
-</details>
+
 
 
 **89. What is the best way to check if a variable is null or undefined?**
@@ -2800,8 +2712,8 @@ b) if (typeof x === "null")
 c) if (x === null || x === undefined)
 d) if (x == undefined)
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: c) if (x === null || x === undefined)
 
 The best answer is **a) `if (x == null)`**
@@ -2833,8 +2745,7 @@ undefined == undefined  // true
 ## Best Practice
 
 Use `if (x == null)` when you want to check for both null and undefined. This is one of the rare cases where using `==` instead of `===` is actually recommended. If you only want to check for one specific value, use strict equality (`===`).
-</ul>
-</details>
+
 
 
 **90. What does document.createElement('div') do?**
@@ -2844,8 +2755,8 @@ b) Creates a div but does not append it
 c) Selects an existing div
 d) Deletes all div elements
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: b) Creates a div but does not append it
 
 ✅ **Correct answer:** **b) Creates a div but does not append it**
@@ -2868,8 +2779,7 @@ document.body.appendChild(div); // appends it to the document
 * Creates a new element ✅
 * Doesn’t appear on the page until appended ❌
 
-</ul>
-</details>
+
 
 
 **91. Which API is used to create animations in JavaScript?**
@@ -2879,8 +2789,8 @@ b) requestAnimationFrame()
 c) animateCSS()
 d) window.setInterval()
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: b) requestAnimationFrame()
 
 ✅ **Correct answer:** **b) `requestAnimationFrame()`**
@@ -2913,8 +2823,7 @@ moveBox();
 * Automatically pauses when the tab is inactive (saving resources)
 * Provides smoother animations that align with the display’s refresh rate
 
-</ul>
-</details>
+
 
 
 
@@ -2925,8 +2834,8 @@ b) slice()
 c) removeSpace()
 d) strip()
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: a) trim()
 
 ✅ **Correct answer:** **a) `trim()`**
@@ -2946,8 +2855,7 @@ console.log(str.trim()); // "Hello World!"
 * `trimStart()` → removes from the **start only**
 * `trimEnd()` → removes from the **end only**
 
-</ul>
-</details>
+
 
 
 **93. Which method removes the last element from an array?**
@@ -2957,8 +2865,8 @@ b) shift()
 c) splice()
 d) removeLast()
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: a) pop()
 
 ✅ **Correct answer:** **a) `pop()`**
@@ -2982,8 +2890,7 @@ console.log(fruits);  // ["apple", "banana"]
 * `splice()` → can remove elements from **any position**
 * `removeLast()` → ❌ not a valid JavaScript method
 
-</ul>
-</details>
+
 
 **94. What is the output of the following code?**
 ```js
@@ -3000,8 +2907,8 @@ D) TypeError: myFunc is not a function
 
 ```
 
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: c) ƒ myFunc() { return "Hello"; }
 
 ✅ **Correct answer:** **C) [Function: myFunc]**
@@ -3037,8 +2944,7 @@ Hence, when the `console.log()` runs, `myFunc` is already defined — it logs th
 
 *(or equivalent function representation in browser console)*
 
-</ul>
-</details>
+
 
 **95. Which of the following is an example of a higher-order function?**
 ```js
@@ -3047,8 +2953,8 @@ b) A function with a return type of void
 c) A function that has a loop inside
 d) A function that only contains if-else statements
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: a) A function that returns another function
 
 ✅ **Correct answer:** **a) A function that returns another function**
@@ -3078,8 +2984,7 @@ Here, `greet()` is a **higher-order function** because it **returns another func
 
 * `map()`, `filter()`, `reduce()`, `forEach()`, `setTimeout()`, etc.
 
-</ul>
-</details>
+
 
 **96. Which method is used to handle asynchronous functions in JavaScript?**
 ```js
@@ -3089,8 +2994,8 @@ c) async/await
 d) All of the above
 ```
 
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: d) All of the above
 
 ✅ **Correct answer:** **d) All of the above**
@@ -3133,8 +3038,7 @@ getData();
 
 > All three methods help manage asynchronous code — but `Promises` and `async/await` are the **modern, preferred** approaches.
 
-</ul>
-</details>
+
 
  **97. Which of the following is NOT true about closures?**
  ```js
@@ -3143,8 +3047,8 @@ b) Closures are created every time a function is invoked.
 c) Closures help in data encapsulation.
 d) Closures cannot access global variables.
  ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: d) Closures cannot access global variables.
 
 ✅ **Correct answer:** **d) Closures cannot access global variables.**
@@ -3177,8 +3081,7 @@ fn(); // Output: Global Local
 ✅ Hence, **closures can access global variables**, making **option (d)** the incorrect statement.
 
 
-</ul>
-</details>
+
 
 **98. What will be the output of the following code?**
 ```js
@@ -3196,8 +3099,8 @@ b) undefined
 c) ReferenceError
 d) null
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: b) undefined
 
 ✅ **Correct answer:** **b) `undefined`**
@@ -3246,8 +3149,7 @@ const obj = {
 console.log(obj.getValue()); // 42
 ```
 
-</ul>
-</details>
+
 
 **99 What will be the output of the following asynchronous function?**
 ```js
@@ -3262,8 +3164,8 @@ b) Promise { "Hello" }
 c) undefined
 d) Error
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: b) Promise { "Hello" }
 
 ✅ **Correct answer:** **b) `Promise { "Hello" }`**
@@ -3306,8 +3208,7 @@ or
 (async () => console.log(await foo()))(); // "Hello"
 ```
 
-</ul>
-</details>
+
 
 **100. What is currying in JavaScript?**
 ```js
@@ -3316,8 +3217,8 @@ b) A method to execute functions asynchronously.
 c) A way to cache function results for optimization.
 d) A technique to convert a function into a class.
 ```
-<details>
-	<summary><b>View Answer</b></summary><ul>
+
+
 Answer: a) A technique where a function is transformed into a sequence of unary functions.	
 
 ✅ **Correct answer:** **a) A technique where a function is transformed into a sequence of unary (one-argument) functions.**
@@ -3358,5 +3259,4 @@ Here:
 
 > Currying transforms `f(a, b, c)` into `f(a)(b)(c)`.
 
-</ul>
-</details>
+
